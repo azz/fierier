@@ -1,0 +1,35 @@
+{
+  "name": "fierier",
+  "version": "1.0.0",
+  "description": "guy fieri",
+  "bin": "lib/cli.js",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "guy",
+    "fieri"
+  ],
+  "author": "Lucas Azzola <@azz>",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "lint": "eslint .",
+    "test": "jest --runInBand"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.32",
+    "@babel/core": "7.0.0-beta.32",
+    "@babel/preset-env": "7.0.0-beta.32",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^8.0.2",
+    "babel-jest": "^21.2.0",
+    "eslint": "^4.11.0",
+    "eslint-config-prettier": "^2.8.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "jest": "^21.2.1",
+    "prettier": "^1.8.2"
+  }
+}
